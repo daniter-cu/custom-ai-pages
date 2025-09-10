@@ -7,7 +7,6 @@ const BASE = process.env.GH_PAGES_BASE ?? "/custom-ai-pages/";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: BASE,
   server: {
     host: "::",
     port: 8080,
