@@ -77,6 +77,7 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 * add form to sign up for waitlist
 * fix buttons
 * review copy
+* Add Company Name and Branding
 * Add Link from daniter.com
 * Add Google Analytics
 * Fix favicon

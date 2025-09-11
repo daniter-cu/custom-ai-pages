@@ -26,9 +26,8 @@ const CTA = () => {
               {/* Space for Google Form Embed */}
               <div className="min-h-[300px] bg-muted/50 border-2 border-dashed border-muted-foreground/30 rounded-lg flex items-center justify-center">
                 <div className="text-center text-muted-foreground">
-                  <p className="text-lg font-medium mb-2">Google Form Embed Area</p>
                   <p className="text-sm">
-                    Replace this placeholder with your Google Form embed code
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMYLxlqTUJEE1fn3EbpmHPa5HWumg_Pn16cWZSSaC-g-gvAQ/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                   </p>
                 </div>
               </div>
