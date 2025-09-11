@@ -19,18 +19,22 @@
     <link rel="stylesheet" crossorigin href="/custom-ai-pages/assets/index-E3QBM6Mc.css">
     
     <script>
-      // GitHub Pages SPA redirect
-      // This script redirects to the correct path for single-page applications
-      var pathSegmentsToKeep = 1;
-      
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // GitHub Pages SPA redirect - improved version
+      (function() {
+        var pathSegmentsToKeep = 1;
+        var l = window.location;
+        
+        // Only redirect if we're not already on the correct path
+        if (l.pathname.indexOf('/?/') === -1) {
+          var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash;
+          
+          l.replace(redirect);
+        }
+      })();
     </script>
   </head>
 
