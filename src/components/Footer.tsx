@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-bold text-primary-foreground mb-2">
-              Bespoke AI Solutions
+              Sagur &mdash; Bespoke AI Solutions
             </h3>
             <p className="text-primary-foreground/70">
               Transforming businesses with custom AI solutions
@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           <div className="text-primary-foreground/70 text-sm">
-            © 2024 Bespoke AI Solutions. All rights reserved.
+            © 2025 Sagur. All rights reserved.
           </div>
         </div>
       </div>

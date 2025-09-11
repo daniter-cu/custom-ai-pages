@@ -20,8 +20,13 @@ const Services = () => {
     },
     {
       icon: Brain,
-      title: "AI Copilots & Finetuned Models",
-      description: "Equip your team with domain-specific copilots and custom models designed around your data.",
+      title: "AI Copilots",
+      description: "Equip your team with product specific copilots that can help them with their work.",
+    },
+    {
+      icon: Brain,
+      title: "Finetuned Models",
+      description: "Train models on your data to unlock smaller models that are more cost effective.",
     },
     {
       icon: Cog,

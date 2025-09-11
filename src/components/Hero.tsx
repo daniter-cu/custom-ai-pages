@@ -7,7 +7,7 @@ const Hero = () => {
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <div className="inline-flex items-center px-4 py-2 mb-8 bg-primary/10 backdrop-blur-sm border border-primary/20 rounded-full text-sm text-primary-foreground font-medium">
-          🚀 Bespoke AI Solutions for Modern Business
+          🚀 Sagur &mdash; Your AI Problems, Solved Just for You
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
