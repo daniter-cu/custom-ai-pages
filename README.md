@@ -74,10 +74,9 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 
 ## TODO
-* add form to sign up for waitlist
-* fix buttons
+* Fix favicon
 * review copy
 * Add Company Name and Branding
 * Add Link from daniter.com
 * Add Google Analytics
-* Fix favicon
+* fix deployment to use github actions instead of manually running deploy.sh
