@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const CTA = () => {
   return (
-    <section className="py-24 bg-gradient-hero">
+    <section id="waitlist" className="py-24 bg-gradient-hero">
       <div className="max-w-4xl mx-auto px-6">
         <Card className="bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground/20 shadow-premium">
           <CardHeader className="text-center pb-6">

@@ -74,8 +74,9 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 
 ## TODO
-* Move to custom domain
-* change name of package / path
-* Add Link from daniter.com
 * add form to sign up for waitlist
+* fix buttons
+* review copy
+* Add Link from daniter.com
 * Add Google Analytics
+* Fix favicon

@@ -31,6 +31,12 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4 text-lg shadow-premium"
+            onClick={() => {
+              const waitlistSection = document.getElementById('waitlist');
+              if (waitlistSection) {
+                waitlistSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
           >
             Start Your Project
           </Button>
@@ -38,6 +44,12 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/20 font-semibold px-8 py-4 text-lg"
+            onClick={() => {
+              const waitlistSection = document.getElementById('waitlist');
+              if (waitlistSection) {
+                waitlistSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
           >
             Learn More
           </Button>
