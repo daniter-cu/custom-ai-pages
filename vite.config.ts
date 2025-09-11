@@ -3,9 +3,13 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
+// Set base path based on environment variable
+// Set USE_GH_PAGES=true to use "/custom-ai-pages/", otherwise use empty string
+const BASE = process.env.USE_GH_PAGES === "true" ? "/custom-ai-pages/" : "";
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/custom-ai-pages/",
+  base: BASE,
   server: {
     host: "::",
     port: 8080,
